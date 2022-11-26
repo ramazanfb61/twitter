@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .nav-parent:hover .nav-child:first-child{
+        @apply bg-twitterHoverColor
+    }
+}
+@layer base {
+    body{
+        @apply bg-twitterPrimaryColor text-twitterTextColor
+    }
+}
