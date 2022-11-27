@@ -1,4 +1,4 @@
-# netflix
+# twitter_clone
 
 ## Build Setup
 
