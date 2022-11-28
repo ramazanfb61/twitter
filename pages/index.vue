@@ -12,8 +12,8 @@
 
 <script>
 import AppNavigation from '../components/AppNavigation.vue';
-import AppContent from "../components/appContent.vue"
-import AppTrends from "../components/appTrends.vue"
+import AppContent from "../components/appContent.vue";
+import AppTrends from "../components/appTrends.vue";
 
 export default {
   name: 'IndexPage',
