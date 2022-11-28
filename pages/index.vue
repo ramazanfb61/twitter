@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-row">
-    <header class="w-navi">
+    <header class="w-navi flex justify-end">
       <AppNavigation></AppNavigation>
     </header>
     <main class="w-main flex flex-row">

@@ -1,8 +1,8 @@
 <template>
-  <nav class="flex flex-col justify-end ">
-    <div class="grid grid-cols-2 h-screen">
-      <div></div>
-      <div class="ml-3 flex flex-col justify-center">
+  <div class=" fixed">
+    <nav class=" flex flex-col items-center">
+    <div class="h-screen ">
+      <div class=" ml-3  h-full flex flex-col">
         <div role="nav-items" class="">
           <NuxtLink to="/"
             class="hover:bg-twitterLogoColor flex rounded-full w-12 h-12 text-center justify-center items-center">
@@ -14,13 +14,14 @@
             <span class="">Tweetle</span>
           </a>
         </div>
-        <div class="mt-5 flex items-end">
+        <div class="mt-5 h-12 flex flex-col justify-end">
           <NavProfile></NavProfile>
         </div>
       </div>
       
     </div>
   </nav>
+  </div>
 </template>
 
 <script>
