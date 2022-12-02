@@ -1,12 +1,12 @@
 <template>
-	<div class="border w-content h-14  sticky top-0">
-		<div class=" opacity-75 blur-md"></div>
-		<div class="absolute z-10 w-full flex p-3 flex-row justify-between">
+	<div class=" w-full	 h-14 sticky top-0  backdrop-blur-sm bg-twitterPrimaryColor bg-opacity-75 ">
+		<div class="flex p-3 flex-row justify-between ">
 			<NuxtLink to="/">
-				<h4 class="">Ana sayfa</h4>
+				<h4 class="font-medium text-xl">Ana sayfa</h4>
 			</NuxtLink>
 			<SvgIcon type="mdi" :path="starIcon"></SvgIcon>
 		</div>
+
 	</div>
 </template>
 

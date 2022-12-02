@@ -25,6 +25,8 @@ module.exports = {
         "twitterButtonColor" : "#1A8CD8",
         "twitterLogoColor" : "#162D3F",
         "twitterBorderColor" : "#38444D",
+        "twitterPlaceHolder" : "#6C7885",
+        "twitterPlaceHolderWhite" : "#8B98A5"
       }
     },
 

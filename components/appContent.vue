@@ -1,6 +1,9 @@
 <template>
     <div>
-        <AppTitle></AppTitle>
+        <AppTitle />
+        <div>
+            <AppTweet />
+        </div>
         <br><br><br><br><br><br><br><br><br>
         <br><br><br><br><br><br><br><br><br>
         <br><br><br><br><br><br><br><br><br>
@@ -13,10 +16,12 @@
 
 <script>
 import AppTitle from "./appTitle.vue"
+import AppTweet from "./appTweet.vue"
 
 export default {
     components : {
         AppTitle,
+        AppTweet,
     }
 }
 

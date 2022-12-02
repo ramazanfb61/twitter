@@ -6,9 +6,16 @@
     .nav-parent:hover .nav-child:first-child{
         @apply bg-twitterHoverColor
     }
+    .tweetShowOptions{
+        @apply cursor-pointer text-twitterButtonColor border border-twitterBorderColor p-1 px-2 rounded-full text-sm font-semibold
+    }   
+    .tweetContentTypes{
+        @apply p-1 m-1 rounded-full hover:bg-twitterLogoColor cursor-pointer
+    }
 }
 @layer base {
     body{
-        @apply bg-twitterPrimaryColor text-twitterTextColor
+        @apply bg-twitterPrimaryColor text-twitterTextColor border-twitterBorderColor
     }
+    
 }
