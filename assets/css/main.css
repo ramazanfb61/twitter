@@ -7,15 +7,23 @@
         @apply bg-twitterHoverColor
     }
     .tweetShowOptions{
-        @apply cursor-pointer text-twitterButtonColor border border-twitterBorderColor p-1 px-2 rounded-full text-sm font-semibold
+        @apply cursor-pointer text-twitterButtonColor border border-twitterBorderColor hover:bg-twitterLogoColor transition-colors duration-100  px-2 rounded-full text-sm font-semibold
     }   
     .tweetContentTypes{
-        @apply p-1 m-1 rounded-full hover:bg-twitterLogoColor cursor-pointer
+        @apply p-1 m-1  rounded-full hover:bg-twitterLogoColor cursor-pointer
+    }
+    .tweetActionButtons{
+        @apply p-1  hover:bg-twitterLogoColor rounded-full transition-colors duration-75 cursor-pointer
+    }
+    .actionButtonsSvg{
+        @apply inline-block w-5 text-twitterPlaceHolder h-5 
     }
 }
 @layer base {
     body{
-        @apply bg-twitterPrimaryColor text-twitterTextColor border-twitterBorderColor
+        @apply bg-twitterPrimaryColor text-twitterTextColor border-twitterBorderColor 
     }
-    
+    html{
+        @apply h-full
+    }
 }

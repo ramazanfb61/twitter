@@ -3,9 +3,9 @@
     <header class="w-navi flex justify-end mr-8">
       <AppNavigation></AppNavigation>
     </header>
-    <main class="w-main flex flex-row">
-      <AppContent class="w-content border border-twitterBorderColor mr-10"></AppContent>
-      <AppTrends class="w-trend border border-twitterBorderColor "></AppTrends>
+    <main class="h-auto w-main flex flex-row">
+      <AppContent></AppContent>
+      <AppTrends></AppTrends>
     </main>
   </div>
 </template>

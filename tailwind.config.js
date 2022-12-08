@@ -16,7 +16,8 @@ module.exports = {
         "navi": "595px",
         "main" : "1395px",
         "content" : "600px",
-        "trend" : "350px"
+        "trend" : "350px",
+        
       },
       colors:{
         "twitterPrimaryColor" : "#15202B",
@@ -26,7 +27,12 @@ module.exports = {
         "twitterLogoColor" : "#162D3F",
         "twitterBorderColor" : "#38444D",
         "twitterPlaceHolder" : "#6C7885",
-        "twitterPlaceHolderWhite" : "#8B98A5"
+        "twitterPlaceHolderWhite" : "#8B98A5",
+        "twitterWhiteshBorder" : "#4F5F6C",
+        "twitterMuteColor" : "#5E6976",
+      },
+      fontSize : {
+        "15" : "15px",
       }
     },
 
