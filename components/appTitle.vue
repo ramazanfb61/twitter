@@ -1,5 +1,5 @@
 <template>
-	<div class="w-full z-50 h-14 top-0 backdrop-blur-sm bg-twitterPrimaryColor bg-opacity-75 ">
+	<div class="w-full z-50 h-14 sticky top-0 backdrop-blur-md bg-twitterPrimaryColor bg-opacity-75 ">
 		<div class="flex p-3 flex-row justify-between">
 			<NuxtLink to="/">
 				<h4 class="font-medium text-xl">Ana sayfa</h4>

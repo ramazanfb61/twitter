@@ -3,7 +3,7 @@
     <header class="w-navi flex justify-end mr-8">
       <AppNavigation></AppNavigation>
     </header>
-    <main class="h-auto w-main flex flex-row">
+    <main class="h-auto md:w-main w-screen flex flex-row">
       <AppContent></AppContent>
       <AppTrends></AppTrends>
     </main>

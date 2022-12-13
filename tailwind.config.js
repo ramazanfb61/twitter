@@ -30,6 +30,9 @@ module.exports = {
         "twitterPlaceHolderWhite" : "#8B98A5",
         "twitterWhiteshBorder" : "#4F5F6C",
         "twitterMuteColor" : "#5E6976",
+        "twitterSearchColor" : "#273340",
+        "twitterTrendItemHover":"#252E38",
+        "twitterTrendBackground" : "#1E2732",
       },
       fontSize : {
         "15" : "15px",

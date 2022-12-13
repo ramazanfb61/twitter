@@ -1,5 +1,5 @@
 <template>
-	<div class="w-content mr-10 border border-x-twitterBorderColor">
+	<div class="w-content  mr-10 border-x border-x-twitterBorderColor">
 		<AppTitle />
 		<section>
 			<div>
